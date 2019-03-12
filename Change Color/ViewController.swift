@@ -14,7 +14,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    @IBAction func btnr(_ sender: Any) {
+        self.view.backgroundColor = UIColor.red
+    }
+    @IBAction func btny(_ sender: Any) {
+        self.view.backgroundColor = UIColor.yellow
+    }
+    @IBAction func btnb(_ sender: Any) {
+        self.view.backgroundColor = UIColor.blue
+    }
+    
 
 }
 
